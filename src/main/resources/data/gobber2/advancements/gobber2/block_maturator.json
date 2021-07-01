@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_ring_farmer",
+  "display": {
+    "icon": {
+      "item": "gobber2:block_maturator"
+    },
+    "title": {
+      "translate": "advancements.gobber2.block_maturator.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.block_maturator.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "block_maturator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:block_maturator"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "block_maturator"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "CBC",
+    "BAB",
+    "CDC"
+  ],
+
+  "key":
+  {
+    "A":
+    {
+      "item": "gobber2:gobber2_medallion_end"
+    },
+    "B":
+    {
+      "item": "minecraft:nether_star"
+    },
+    "C":
+    {
+      "item": "minecraft:end_crystal"
+    },
+    "D":
+    {
+      "item": "gobber2:gobber2_medallion_healing2"
+    }
+  },
+
+  "result":
+  {
+    "item": "gobber2:gobber2_medallion_healing3",
+    "count": 1
+  }
+}

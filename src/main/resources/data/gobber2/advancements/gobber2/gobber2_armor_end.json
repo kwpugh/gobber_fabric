@@ -1,0 +1,69 @@
+{
+  "parent": "gobber2:gobber2/gobber2_links_end",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_chestplate_end",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_armor_end.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_armor_end.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_helmet_end": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_helmet_end"
+          }
+        ]
+      }
+    },
+    "gobber2_chestplate_end": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_chestplate_end"
+          }
+        ]
+      }
+    },
+    "gobber2_leggings_end": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_leggings_end"
+          }
+        ]
+      }
+    },
+    "gobber2_boots_end": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_boots_end"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_helmet_end",
+      "gobber2_chestplate_end",
+      "gobber2_leggings_end",
+      "gobber2_boots_end"
+    ]
+  ]
+}

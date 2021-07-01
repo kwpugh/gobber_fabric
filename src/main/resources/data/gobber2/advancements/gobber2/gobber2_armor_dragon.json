@@ -1,0 +1,69 @@
+{
+  "parent": "gobber2:gobber2/gobber2_dragon_elytra",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_chestplate_dragon",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_armor_dragon.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_armor_dragon.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_helmet_dragon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_helmet_dragon"
+          }
+        ]
+      }
+    },
+    "gobber2_chestplate_dragon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_chestplate_dragon"
+          }
+        ]
+      }
+    },
+    "gobber2_leggings_dragon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_leggings_dragon"
+          }
+        ]
+      }
+    },
+    "gobber2_boots_dragon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_boots_dragon"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_helmet_dragon",
+      "gobber2_chestplate_dragon",
+      "gobber2_leggings_dragon",
+      "gobber2_boots_dragon"
+    ]
+  ]
+}

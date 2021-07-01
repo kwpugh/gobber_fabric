@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "gobber2:gobber2_sword_end"
+  },
+  "addition": {
+    "item": "gobber2:gobber2_staff_sniper"
+  },
+  "result": {
+    "item": "gobber2:gobber2_sword_sniper"
+  }
+}

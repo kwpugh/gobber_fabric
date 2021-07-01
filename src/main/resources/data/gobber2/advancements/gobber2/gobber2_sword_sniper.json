@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_sword_end",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_sword_sniper"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_sword_sniper.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_sword_sniper.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_sword_sniper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_sword_sniper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_sword_sniper"
+    ]
+  ]
+}

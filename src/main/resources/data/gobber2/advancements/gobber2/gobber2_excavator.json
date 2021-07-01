@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_paxel",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_excavator"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_excavator.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_excavator.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_excavator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_excavator"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_excavator"
+    ]
+  ]
+}

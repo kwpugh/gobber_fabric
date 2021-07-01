@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_rod",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_staff_clearing"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_staff_clearing.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_staff_clearing.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_staff_clearing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_staff_clearing"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_staff_clearing"
+    ]
+  ]
+}

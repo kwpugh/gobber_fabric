@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gobber2:gobber2_staff_transformation"
+    },
+    {
+      "item": "minecraft:diorite"
+    }
+  ],
+  "result": {
+    "item": "minecraft:end_stone",
+    "count": 1
+  }
+}

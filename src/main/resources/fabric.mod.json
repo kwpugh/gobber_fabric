@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "gobber2",
+  "version": "${version}",
+
+  "name": "Gobber2",
+  "description": "Gobber for Fabric API",
+  "authors": [
+    "Kevin Pugh"
+  ],
+  "contact": {
+    "homepage": "",
+    "issues": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/gobber2/textures/item/gobber2_glob.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kwpugh.gobber2.Gobber2"
+    ],
+    "client": [
+      "com.kwpugh.gobber2.Gobber2Client",
+      "com.kwpugh.gobber2.items.tools.basetools.ModBowClientRender"
+    ]
+  },
+  "mixins": [
+    "gobber2.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

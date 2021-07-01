@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " D ",
+        "BAC",
+        " E "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "gobber2:gobber2_ring_end"
+        },
+        "B":
+        {
+            "item": "gobber2:gobber2_ring_blink"
+        },
+        "C":
+        {
+            "item": "gobber2:gobber2_ring_return"
+        },
+        "D":
+        {
+            "item": "gobber2:gobber2_ring_void"
+        },
+        "E":
+        {
+            "item": "gobber2:gobber2_ring_ascent"
+        }
+    },
+    
+    "result":
+    {
+        "item": "gobber2:gobber2_ring_explorer",
+        "count": 1
+    }
+}

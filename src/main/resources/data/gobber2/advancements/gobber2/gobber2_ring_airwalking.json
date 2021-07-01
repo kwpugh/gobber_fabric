@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_ring_enderchest",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_ring_airwalking"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_ring_airwalking.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_ring_airwalking.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_ring_airwalking": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_ring_airwalking"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_ring_airwalking"
+    ]
+  ]
+}

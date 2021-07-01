@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+  	"minecraft:leather",
+  	"minecraft:rabbit_hide",
+  	"minecraft:feather",
+  	"minecraft:slime_ball",
+  	"minecraft:gunpowder",
+  	"minecraft:iron_ingot",
+  	"minecraft:gold_ingot",
+  	"minecraft:ender_pearl",
+  	"minecraft:blaze_powder",
+  	"minecraft:quartz"
+  ]
+}

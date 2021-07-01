@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " CA",
+        " BD",
+        "B  "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:sugar_cane"
+        },
+        "B":
+        {
+            "item": "gobber2:gobber2_rod_nether"
+        },
+        "C":
+        {
+            "item": "minecraft:spruce_sapling"
+        },
+        "D":
+        {
+            "item": "minecraft:oak_sapling"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "gobber2:gobber2_staff_nature",
+        "count": 1
+    }
+}

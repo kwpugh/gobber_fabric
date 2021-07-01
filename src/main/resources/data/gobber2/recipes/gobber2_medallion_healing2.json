@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "CBC",
+    "BAB",
+    "CDC"
+  ],
+
+  "key":
+  {
+    "A":
+    {
+      "item": "gobber2:gobber2_medallion_nether"
+    },
+    "B":
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    "C":
+    {
+      "item": "minecraft:weeping_vines"
+    },
+    "D":
+    {
+      "item": "gobber2:gobber2_medallion_healing"
+    }
+  },
+
+  "result":
+  {
+    "item": "gobber2:gobber2_medallion_healing2",
+    "count": 1
+  }
+}

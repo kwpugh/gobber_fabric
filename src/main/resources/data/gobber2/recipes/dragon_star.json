@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DAD",
+        "CBC",
+        "DCD"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:dragon_head"
+        },
+        "B":
+        {
+            "item": "minecraft:nether_star"
+        },
+        "C":
+        {
+            "item": "gobber2:gobber2_ingot_end"
+        },
+        "D":
+        {
+            "item": "minecraft:dragon_breath"
+        }
+    },
+    
+    "result":
+    {
+        "item": "gobber2:dragon_star",
+        "count": 1
+    }
+}

@@ -1,0 +1,117 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 7907327,
+    "foliage_color": 6975545,
+    "fog_color": 12638463,
+    "water_color": 6388580,
+    "water_fog_color": 2302743
+  },
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave",
+      "minecraft:nether_cave"
+    ]
+  },
+  "starts": [],
+  "features": [
+    [],
+    [
+      "minecraft:lake_water",
+      "minecraft:basalt_blobs"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_blackstone",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_emerald",
+      "minecraft:ore_lapis"
+    ],
+    [],
+    [],
+    []
+  ],
+  "spawners": {
+    "ambient": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 0
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 0
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 0
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 0
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 0
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 0
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 0
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 0
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "category": "extreme_hills",
+  "precipitation": "none",
+  "surface_builder": "minecraft:stone",
+  "scale": 0.05,
+  "downfall": 0.0,
+  "depth": 0.12,
+  "temperature": 0.8,
+  "player_spawn_friendly": true,
+  "spawn_costs": {},
+  "creature_spawn_probability": 0
+}

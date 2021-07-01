@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" CD",
+		" AC",
+		"A  "
+	],
+	
+	"key":
+	{
+		"A": { "item": "gobber2:gobber2_rod_end" },
+		"C": { "item": "gobber2:gobber2_bow_end" },
+		"D": { "item": "minecraft:nether_star" }
+	},
+	
+	"result": { "item": "gobber2:gobber2_staff_sniper",
+	"count": 1 }
+}

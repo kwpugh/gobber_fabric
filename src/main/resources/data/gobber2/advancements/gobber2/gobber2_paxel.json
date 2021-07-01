@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_pickaxe",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_paxel"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_paxel.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_paxel.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_paxel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_paxel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_paxel"
+    ]
+  ]
+}

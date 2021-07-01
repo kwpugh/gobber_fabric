@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_ring_dismissal",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_ring_teleport"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_ring_teleport.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_ring_teleport.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_ring_teleport": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_ring_teleport"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_ring_teleport"
+    ]
+  ]
+}

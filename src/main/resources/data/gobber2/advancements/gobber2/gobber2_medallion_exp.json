@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_medallion_nether",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_medallion_exp"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_medallion_exp.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_medallion_exp.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_medallion_exp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_medallion_exp"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_medallion_exp"
+    ]
+  ]
+}

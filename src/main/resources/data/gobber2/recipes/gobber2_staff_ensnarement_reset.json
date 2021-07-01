@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gobber2:gobber2_staff_ensnarement"
+    }
+  ],
+  "result": {
+    "item": "gobber2:gobber2_staff_ensnarement",
+    "count": 1
+  }
+}

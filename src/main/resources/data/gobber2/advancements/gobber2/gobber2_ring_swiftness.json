@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_ring_sunshine",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_ring_swiftness"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_ring_swiftness.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_ring_swiftness.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_ring_swiftness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_ring_swiftness"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_ring_swiftness"
+    ]
+  ]
+}

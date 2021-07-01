@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_rod",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_sword"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_sword.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_sword.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_sword"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_sword"
+    ]
+  ]
+}

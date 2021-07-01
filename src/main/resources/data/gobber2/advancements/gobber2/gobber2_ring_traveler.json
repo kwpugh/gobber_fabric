@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_ring_void",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_ring_traveler"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_ring_traveler.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_ring_traveler.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_ring_traveler": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_ring_traveler"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_ring_traveler"
+    ]
+  ]
+}

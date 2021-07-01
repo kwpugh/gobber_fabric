@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " CA",
+        " BC",
+        "B  "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:blue_dye"
+        },
+        
+        "B":
+        {
+            "item": "gobber2:gobber2_rod"
+        },
+        "C":
+        {
+            "item": "minecraft:lapis_lazuli"
+        }
+    },
+    
+    "result":
+    {
+        "item": "gobber2:gobber2_staff_transformation",
+        "count": 1
+    }
+}

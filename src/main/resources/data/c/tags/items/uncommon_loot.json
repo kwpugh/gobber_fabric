@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond",
+  	"minecraft:emerald",
+  	"minecraft:shulker_shell",
+  	"minecraft:rabbit_foot",
+  	"minecraft:heart_of_the_sea",
+  	"minecraft:blaze_rod",
+  	"minecraft:ghast_tear",
+  	"gobber2:gobber2_ingot"
+  ]
+}

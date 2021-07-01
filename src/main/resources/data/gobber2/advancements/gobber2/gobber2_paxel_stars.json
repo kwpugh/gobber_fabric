@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_paxel_end",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_paxel_stars"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_paxel_stars.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_paxel_stars.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_paxel_stars": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_paxel_stars"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_paxel_stars"
+    ]
+  ]
+}

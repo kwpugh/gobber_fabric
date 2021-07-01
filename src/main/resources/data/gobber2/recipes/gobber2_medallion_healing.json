@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "CBC",
+    "BAB",
+    "CBC"
+  ],
+
+  "key":
+  {
+    "A":
+    {
+      "item": "gobber2:gobber2_medallion"
+    },
+    "B":
+    {
+      "item": "minecraft:rabbit_foot"
+    },
+    "C":
+    {
+      "item": "gobber2:gobber2_gooey_apple"
+    }
+  },
+
+  "result":
+  {
+    "item": "gobber2:gobber2_medallion_healing",
+    "count": 1
+  }
+}

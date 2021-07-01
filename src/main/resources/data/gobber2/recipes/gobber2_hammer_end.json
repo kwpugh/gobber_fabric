@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ACA",
+        "ABA",
+        " B "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "gobber2:gobber2_ingot_end"
+        },      
+        "B":
+        {
+            "item": "gobber2:gobber2_rod_end"
+        },
+        "C":
+        {
+            "item": "gobber2:gobber2_block_end"
+        }
+    },
+    
+    "result":
+    {
+        "item": "gobber2:gobber2_hammer_end",
+        "count": 1
+    }
+}

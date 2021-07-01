@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/root",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_glob"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_glob.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_glob.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_glob": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_glob"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_glob"
+    ]
+  ]
+}

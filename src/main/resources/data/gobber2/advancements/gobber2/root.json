@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_ore"
+    },
+    "title": {
+      "translate": "advancements.gobber2.root.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.root.desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "gobber2:textures/gui/backgrounds/stone.png"
+  },
+  "criteria": {
+    "gobber2_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_ore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_ore"
+    ]
+  ]
+}

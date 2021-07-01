@@ -1,0 +1,41 @@
+{
+  "parent": "gobber2:gobber2/gobber2_ingot",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_ring"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_ring.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_ring.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "gobber2:gobber2_lucky_block"
+    ],
+    "experience": 1000
+  },
+  "criteria": {
+    "gobber2_ring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_ring"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_ring"
+    ]
+  ]
+}

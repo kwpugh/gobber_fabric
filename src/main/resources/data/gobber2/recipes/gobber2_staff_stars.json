@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		" CD",
+		" AC",
+		"A  "
+	],
+	
+	"key":
+	{
+		"A": { "item": "gobber2:gobber2_rod_nether" },
+		"C": { "item": "minecraft:redstone" },		
+		"D": { "item": "minecraft:glowstone_dust" }
+	},
+	
+	"result": { "item": "gobber2:gobber2_staff_stars",
+	"count": 1 }
+}

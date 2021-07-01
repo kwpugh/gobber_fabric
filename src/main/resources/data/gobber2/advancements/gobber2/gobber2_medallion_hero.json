@@ -1,0 +1,35 @@
+{
+  "parent": "gobber2:gobber2/gobber2_medallion",
+  "display": {
+    "icon": {
+      "item": "gobber2:gobber2_medallion_hero"
+    },
+    "title": {
+      "translate": "advancements.gobber2.gobber2_medallion_hero.title"
+    },
+    "description": {
+      "translate": "advancements.gobber2.gobber2_medallion_hero.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gobber2_medallion_hero": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gobber2:gobber2_medallion_hero"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gobber2_medallion_hero"
+    ]
+  ]
+}
