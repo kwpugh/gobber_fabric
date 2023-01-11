@@ -442,8 +442,9 @@ public class Gobber2Config extends PartitioningSerializer.GlobalData
     			+"\n******************************")
     	public int gobberDurability = 3800;
        	public float gobberMiningSpeed = 9.0F;
-       	public float gobberAttackDamage = 9.0F;
+       	public float gobberSwordAttackDamage = 9.0F;
 		public float gobberSwordAttackSpeed = 2.0F;
+	public float gobberAxeAttackDamage = 10.0F;
        	public int gobberEnchantability = 20;
        	
       	@Comment("\n"
