@@ -66,8 +66,8 @@ public class GobberArrowEndEntity extends PersistentProjectileEntity
         this.setPunch(this.getPunch() + Gobber2.CONFIG.GENERAL.punchLevelEndArrow);
         target.damage(DamageSource.GENERIC, Gobber2.CONFIG.GENERAL.extraDamageEndArrow);
 
-        StatusEffectInstance wither = new StatusEffectInstance(StatusEffects.WITHER, this.duration, 4);
-        StatusEffectInstance slowness = new StatusEffectInstance(StatusEffects.SLOWNESS, this.duration, 4);
+        StatusEffectInstance wither = new StatusEffectInstance(StatusEffects.WITHER, this.duration, 1);
+        StatusEffectInstance slowness = new StatusEffectInstance(StatusEffects.SLOWNESS, this.duration, 1);
         StatusEffectInstance glowing = new StatusEffectInstance(StatusEffects.GLOWING, this.duration, 1);
         StatusEffectInstance levitation = new StatusEffectInstance(StatusEffects.LEVITATION, this.duration, 1);
 
@@ -86,9 +86,7 @@ public class GobberArrowEndEntity extends PersistentProjectileEntity
             this.cloud.setDuration(90);
             this.cloud.setParticleType(ParticleTypes.DRAGON_BREATH);
             this.cloud.addEffect(wither);
-            this.cloud.addEffect(slowness);
-            this.cloud.addEffect(glowing);
-
+            
             world.spawnEntity(this.cloud);
         }
         else if(Gobber2.CONFIG.GENERAL.enableEndArrowGlassCage)
