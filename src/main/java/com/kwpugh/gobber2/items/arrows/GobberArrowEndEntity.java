@@ -82,8 +82,8 @@ public class GobberArrowEndEntity extends PersistentProjectileEntity
         if(Gobber2.CONFIG.GENERAL.enablEndArrowCloud)
         {
             this.cloud = new AreaEffectCloudEntity(target.world, target.getX(), target.getY(), target.getZ());
-            this.cloud.setRadius(4.0F);
-            this.cloud.setDuration(300);
+            this.cloud.setRadius(3.0F);
+            this.cloud.setDuration(90);
             this.cloud.setParticleType(ParticleTypes.DRAGON_BREATH);
             this.cloud.addEffect(wither);
             this.cloud.addEffect(slowness);
