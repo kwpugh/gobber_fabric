@@ -67,9 +67,7 @@ public class GobberArrowEntity extends PersistentProjectileEntity
 
         if(Gobber2.CONFIG.GENERAL.enableEffectsGobberArrow)
         {
-            StatusEffectInstance slowness = new StatusEffectInstance(StatusEffects.SLOWNESS, this.duration, 4);
-            StatusEffectInstance glowing = new StatusEffectInstance(StatusEffects.GLOWING, this.duration, 1);
-            StatusEffectInstance poison = new StatusEffectInstance(StatusEffects.POISON, this.duration, 3);
+            StatusEffectInstance poison = new StatusEffectInstance(StatusEffects.POISON, this.duration, 2);
 
             target.addStatusEffect(slowness, this.getEffectCause());
             target.addStatusEffect(glowing, this.getEffectCause());
