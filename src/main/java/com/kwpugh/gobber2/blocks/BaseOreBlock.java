@@ -89,14 +89,14 @@ public class BaseOreBlock extends OreBlock
             maxLevel = CONFIG.gobberMaxLevel;
             veinSize = CONFIG.gobberVeinSize;
             chunkChance = CONFIG.gobberPerChunk;
-            miningLevel = "Netherite";
+            miningLevel = "Diamond";
         }
         else if(stack.isOf(BlockInit.GOBBER2_ORE_DEEPSLATE.asItem()))
         {
             maxLevel = CONFIG.gobberDeepslateMaxLevel;
             veinSize = CONFIG.gobberDeepslateVeinSize;
             chunkChance = CONFIG.gobberDeepslatePerChunk;
-            miningLevel = "Netherite";
+            miningLevel = "Diamond";
         }
         else if(stack.isOf(BlockInit.GOBBER2_LUCKY_BLOCK_NETHER.asItem()))
         {
@@ -111,7 +111,7 @@ public class BaseOreBlock extends OreBlock
             maxLevel = CONFIG.netherGobberMaxLevel;
             veinSize = CONFIG.netherGobberVeinSize;
             chunkChance = CONFIG.netherGobberPerChunk;
-            miningLevel = "Gobber";
+            miningLevel = "Netherite";
             spawnDim = "Nether";
         }
         else if(stack.isOf(BlockInit.GOBBER2_LUCKY_BLOCK_END.asItem()))
@@ -127,7 +127,7 @@ public class BaseOreBlock extends OreBlock
             maxLevel = CONFIG.endGobberMaxLevel;
             veinSize = CONFIG.endGobberVeinSize;
             chunkChance = CONFIG.endGobberPerChunk;
-            miningLevel = "Nether Gobber";
+            miningLevel = "Gobber";
             spawnDim = "The End";
         }
     }
