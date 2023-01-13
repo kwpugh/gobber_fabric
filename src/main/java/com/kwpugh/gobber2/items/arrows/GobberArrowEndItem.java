@@ -46,12 +46,12 @@ public class GobberArrowEndItem extends ArrowItem
 
         if(Gobber2.CONFIG.GENERAL.enableEffectsEndArrow)
         {
-            tooltip.add(Text.translatable("item.gobber2.gobber2_arrow.effects2").formatted(Formatting.GREEN));
+            tooltip.add(Text.translatable("item.gobber2.gobber2_arrow.effects2").formatted(Formatting.LIGHT_PURPLE));
         }
 
         if(Gobber2.CONFIG.GENERAL.enablEndArrowCloud)
         {
-            tooltip.add(Text.translatable("item.gobber2.gobber2_arrow_end.effects_cloud").formatted(Formatting.PURPLE));
+            tooltip.add(Text.translatable("item.gobber2.gobber2_arrow_end.effects_cloud").formatted(Formatting.DARK_PURPLE));
         }
 
         if(Gobber2.CONFIG.GENERAL.enableEndArrowGlassCage)
