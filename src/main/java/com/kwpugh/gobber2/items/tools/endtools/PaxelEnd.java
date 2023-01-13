@@ -20,9 +20,9 @@ public class PaxelEnd extends Paxel
 {
     static boolean unbreakable = Gobber2.CONFIG.GENERAL.unbreakableEndTools;
 
-    public PaxelEnd(ToolMaterial material, float attackDamage, float attackSpeed, Item.Settings settings)
+    public PaxelEnd(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Item.Settings settings)
     {
-        super(material, attackDamage, attackSpeed, settings);
+        super(toolMaterial, attackDamage, attackSpeed, settings);
     }
 
     @Override
