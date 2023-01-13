@@ -73,11 +73,6 @@ public class SwordEndSniper extends SwordItem implements Wearable
 	@Override
 	public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) 
 	{
-	    tooltip.add(Text.translatable("item.gobber2.gobber2_staff_sniper.tip1").formatted(Formatting.GREEN));
-
-		if(quickUseAllowed)
-		{
-			tooltip.add(Text.translatable("item.gobber2.gobber2_staff_sniper.tip1").formatted(Formatting.YELLOW));
-		}
+	    tooltip.add(Text.translatable("item.gobber2.gobber2_staff_sniper.tip1").formatted(Formatting.LIGHT_PURPLE));
 	}  
 }
