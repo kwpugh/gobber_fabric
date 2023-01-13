@@ -52,6 +52,6 @@ public class PaxelEnd extends Paxel
     @Override
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext)
     {
-        tooltip.add(Text.translatable("item.gobber2.gobber2_paxel.tip1").formatted(Formatting.GREEN));
+        tooltip.add(Text.translatable("item.gobber2.gobber2_paxel.tip1").formatted(Formatting.LIGHT_PURPLE));
     }
 }

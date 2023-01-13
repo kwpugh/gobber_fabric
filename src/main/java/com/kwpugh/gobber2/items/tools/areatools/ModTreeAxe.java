@@ -14,9 +14,9 @@ import java.util.List;
 
 public class ModTreeAxe extends TreeAxe
 {
-    public ModTreeAxe(ToolMaterial material, float attackDamage, float attackSpeed, Item.Settings settings)
+    public ModTreeAxe(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Item.Settings settings)
     {
-        super(material, attackDamage, attackSpeed, Gobber2.CONFIG.GENERAL.enableFullDamage, settings);
+        super(toolMaterial, attackDamage, attackSpeed, Gobber2.CONFIG.GENERAL.enableFullDamage, settings);
     }
 
     @Override

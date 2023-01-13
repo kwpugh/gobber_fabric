@@ -384,7 +384,7 @@ public class Gobber2Config extends PartitioningSerializer.GlobalData
 				+"\n"
 				+ "***********************"
 				+"\nGobber Arrow Settings"
-				+"\n- effects - slowing, poison, glowing"
+				+"\n- effects - poison"
 				+"\n- cobweb and explode are mutually exclusive"
 				+"\n***********************")
 		public boolean enableEffectsGobberArrow = true;
@@ -414,7 +414,7 @@ public class Gobber2Config extends PartitioningSerializer.GlobalData
 				+"\n"
 				+ "***********************"
 				+"\nEnd Arrow Settings"
-				+"\n- effects - slowing, wither, glowing"
+				+"\n- effects - slowing, wither"
 				+"\n- cloud, cage, and levitation are mutually exclusive"
 				+"\n***********************")
 		public boolean enableEffectsEndArrow = true;
@@ -443,7 +443,9 @@ public class Gobber2Config extends PartitioningSerializer.GlobalData
     	public int gobberDurability = 3800;
        	public float gobberMiningSpeed = 9.0F;
        	public float gobberAttackDamage = 9.0F;
+		public float gobberAxeAttackDamage = 10.0F;
 		public float gobberSwordAttackSpeed = 2.0F;
+	public float gobberAxeAttackDamage = 10.0F;
        	public int gobberEnchantability = 20;
        	
       	@Comment("\n"
@@ -455,6 +457,7 @@ public class Gobber2Config extends PartitioningSerializer.GlobalData
     	public int gobberNetherDurability = 5200;
        	public float gobberNetherMiningSpeed = 12.0F;
        	public float gobberNetherAttackDamage = 9.0F;
+		public float gobberNetherAxeAttackDamage = 10.0F;
 		public float gobberNetherSwordAttackSpeed = 2.2F;
        	public int gobberNetherEnchantability = 25;
 
@@ -468,6 +471,7 @@ public class Gobber2Config extends PartitioningSerializer.GlobalData
     	public int gobberEndDurability = 8000;
        	public float gobberEndMiningSpeed = 14.0F;
        	public float gobberEndAttackDamage = 9.0F;
+		public float gobberEndAxeAttackDamage = 10.0F;
 		public float gobberEndSwordAttackSpeed = 2.4F;
        	public int gobberEndEnchantability = 30;
 
@@ -576,6 +580,7 @@ public class Gobber2Config extends PartitioningSerializer.GlobalData
 		public boolean enableDragonCuring  =  true;
 		public boolean enableDragonNoFallDamage = true;
 		public boolean enableDragonFlying = true;
+		public boolean enableGlidingDragonArmor = true;
 
 
 		@Comment("\n"

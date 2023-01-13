@@ -69,8 +69,6 @@ public class GobberArrowNetherEntity extends PersistentProjectileEntity
             StatusEffectInstance slowness = new StatusEffectInstance(StatusEffects.SLOWNESS, this.duration, 4);
             StatusEffectInstance glowing = new StatusEffectInstance(StatusEffects.GLOWING, this.duration, 1);
 
-            target.addStatusEffect(wither, this.getEffectCause());
-            target.addStatusEffect(slowness, this.getEffectCause());
             target.addStatusEffect(glowing, this.getEffectCause());
         }
 
@@ -80,9 +78,9 @@ public class GobberArrowNetherEntity extends PersistentProjectileEntity
             BlockState state;
             Block block;
 
-            for (int x = 2; x >= -2; x--)
+            for (int x = 1; x >= -1; x--)
             {
-                for (int z = 2; z >= -2; z--)
+                for (int z = 1; z >= -1; z--)
                 {
                     pos = target.getBlockPos().add(x, 0, z);
                     state = world.getBlockState(pos);

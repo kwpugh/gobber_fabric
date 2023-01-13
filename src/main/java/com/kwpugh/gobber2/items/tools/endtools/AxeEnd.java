@@ -10,9 +10,9 @@ import net.minecraft.world.World;
 
 public class AxeEnd extends AxeItem
 {
-	public AxeEnd(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings)
+	public AxeEnd(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings)
 	{
-		super(material, attackDamage, attackSpeed, settings);
+		super(toolMaterial, attackDamage, attackSpeed, settings);
 	}
 
 	static boolean unbreakable = Gobber2.CONFIG.GENERAL.unbreakableEndTools;

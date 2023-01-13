@@ -19,7 +19,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class DragonArmor extends ArmorItem implements ArmorRemoveHandler, ArmorTickable
+public class DragonArmor extends ArmorItem implements ArmorRemoveHandler, ArmorTickable, FabricElytraItem
 {
     boolean enableDragonBreathing = Gobber2.CONFIG.GENERAL.enableDragonBreathing;
     boolean enableDragonFirePerk = Gobber2.CONFIG.GENERAL.enableDragonFirePerk;
@@ -28,6 +28,7 @@ public class DragonArmor extends ArmorItem implements ArmorRemoveHandler, ArmorT
     boolean enableDragonNoFallDamage = Gobber2.CONFIG.GENERAL.enableDragonNoFallDamage;
     boolean unbreakableDragonArmor = Gobber2.CONFIG.GENERAL.unbreakableDragonArmor;
     int healingPointsDragonArmor = Gobber2.CONFIG.GENERAL.healingPointsDragonArmor;
+    boolean enableDragonGliding  =  Gobber2.CONFIG.GENERAL.enableGlidingDragonArmor;
 
     boolean enableFlying = Gobber2.CONFIG.GENERAL.enableDragonFlying;
 
@@ -106,7 +107,7 @@ public class DragonArmor extends ArmorItem implements ArmorRemoveHandler, ArmorT
     @Environment(EnvType.CLIENT)
     public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext)
     {
-        if(enableDragonBreathing || enableDragonCuring || enableDragonFirePerk || enableDragonHealthPerks || enableDragonNoFallDamage)
+        if(enableDragonGliding || enableDragonBreathing || enableDragonCuring || enableDragonFirePerk || enableDragonHealthPerks || enableDragonNoFallDamage)
         {
             tooltip.add(Text.translatable("item.gobber2.gobber2_armor_dragon.tip1").formatted(Formatting.GREEN));
         }
@@ -140,5 +141,10 @@ public class DragonArmor extends ArmorItem implements ArmorRemoveHandler, ArmorT
         {
             tooltip.add(Text.translatable("item.gobber2.gobber2_armor_dragon.tip7").formatted(Formatting.GREEN));
         }
+        
+        if(enableDragonGliding)
+		{
+			tooltip.add(Text.translatable("item.gobber2.gobber2_armor_dragon.tip8").formatted(Formatting.GREEN));
+		}
     }
 }

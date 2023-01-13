@@ -46,7 +46,7 @@ public class GobberArrowItem extends ArrowItem
 
         if(Gobber2.CONFIG.GENERAL.enableEffectsGobberArrow)
         {
-            tooltip.add(Text.translatable("item.gobber2.gobber2_arrow.effects").formatted(Formatting.GREEN));
+            tooltip.add(Text.translatable("item.gobber2.gobber2_arrow.effects").formatted(Formatting.BLUE));
         }
 
         if(Gobber2.CONFIG.GENERAL.enableGobberArrowExplode)

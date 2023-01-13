@@ -5,9 +5,9 @@ import net.minecraft.item.ToolMaterial;
 
 public class ModAxe extends AxeItem
 {
-	public ModAxe(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings)
+	public ModAxe(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings)
 	{
-		super(material, attackDamage, attackSpeed, settings);
+		super(toolMaterial, attackDamage, attackSpeed, settings);
 	}
 
 }

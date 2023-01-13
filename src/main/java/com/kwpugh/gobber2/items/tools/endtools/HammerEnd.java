@@ -25,7 +25,7 @@ import java.util.List;
 
 public class HammerEnd extends Hammer
 {
-    public HammerEnd(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings)
+    public HammerEnd(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings)
     {
         super(material, attackDamage, attackSpeed, Gobber2.CONFIG.GENERAL.enableFullDamage, settings);
     }
