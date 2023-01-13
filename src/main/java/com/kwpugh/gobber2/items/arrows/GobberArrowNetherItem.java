@@ -51,7 +51,7 @@ public class GobberArrowNetherItem extends ArrowItem
 
         if(Gobber2.CONFIG.GENERAL.enableNetherArrowFire)
         {
-            tooltip.add(Text.translatable("item.gobber2.gobber2_arrow_nether.fire").formatted(Formatting.YELLOW));
+            tooltip.add(Text.translatable("item.gobber2.gobber2_arrow_nether.fire").formatted(Formatting.RED));
         }
     }
 }
