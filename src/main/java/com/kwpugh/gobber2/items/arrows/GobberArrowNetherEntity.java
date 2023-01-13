@@ -69,8 +69,6 @@ public class GobberArrowNetherEntity extends PersistentProjectileEntity
             StatusEffectInstance slowness = new StatusEffectInstance(StatusEffects.SLOWNESS, this.duration, 4);
             StatusEffectInstance glowing = new StatusEffectInstance(StatusEffects.GLOWING, this.duration, 1);
 
-            target.addStatusEffect(wither, this.getEffectCause());
-            target.addStatusEffect(slowness, this.getEffectCause());
             target.addStatusEffect(glowing, this.getEffectCause());
         }
 
