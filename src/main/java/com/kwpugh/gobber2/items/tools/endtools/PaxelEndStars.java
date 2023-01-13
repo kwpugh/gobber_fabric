@@ -49,9 +49,9 @@ public class PaxelEndStars extends Paxel
         PATH_STATES = AccessorShovel.getPathStates();
     }
 
-    public PaxelEndStars(ToolMaterial toolMaterial, float attackDamage, float attackSpeed, Item.Settings settings)
+    public PaxelEndStars(ToolMaterial material, float attackDamage, float attackSpeed, Item.Settings settings)
     {
-        super(toolMaterial, attackDamage, attackSpeed, settings);
+        super(material, attackDamage, attackSpeed, settings);
     }
 
     @Override
