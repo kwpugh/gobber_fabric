@@ -74,8 +74,6 @@ public class GobberArrowEndEntity extends PersistentProjectileEntity
         if(Gobber2.CONFIG.GENERAL.enableEffectsEndArrow)
         {
             target.addStatusEffect(wither, this.getEffectCause());
-            target.addStatusEffect(slowness, this.getEffectCause());
-            target.addStatusEffect(glowing, this.getEffectCause());
         }
 
         // makes no sense to do all three
@@ -86,6 +84,7 @@ public class GobberArrowEndEntity extends PersistentProjectileEntity
             this.cloud.setDuration(90);
             this.cloud.setParticleType(ParticleTypes.DRAGON_BREATH);
             this.cloud.addEffect(wither);
+            this.cloud.addEffect(slowness);
             
             world.spawnEntity(this.cloud);
         }
